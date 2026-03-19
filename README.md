@@ -1,97 +1,91 @@
-# ARHAM.exe // PORTFOLIO_V2
+# LAKSHMAN.exe // NeoBrutalist Portfolio
 
-```
-    ___    ____  __  ______    __  ___          ____  ____  ____  __________________  __    ________ 
-   /   |  / __ \/ / / / __ \  /  |/  /         / __ \/ __ \/ __ \/_  __/ ____/ __ \/ /   /  _/ __ \
-  / /| | / /_/ / /_/ / /_/ / / /|_/ /  ______ / /_/ / / / / /_/ / / / / /_  / / / / /    / // / / /
- / ___ |/ _, _/ __  / __  | / /  / /  /_____// ____/ /_/ / _, _/ / / / __/ / /_/ / /____/ // /_/ / 
-/_/  |_/_/ |_/_/ /_/_/ |_| /_/  /_/         /_/    \____/_/ |_| /_/ /_/    \____/_____/___/\____/  
-                                                            
->> SYSTEM_STATUS: ONLINE
->> THEME: NEO_BRUTALISM
->> VERSION: 2.0.0
-```
+Personal portfolio of Lakshman Singh Naik Bhukya, built with a NeoBrutalist visual system and modular Vite architecture.
 
-> **WARNING**: This is NOT a standard portfolio. It is a raw, unfiltered expression of code. No cookies. No trackers. Just pure HTML, CSS, and JS anarchy.
+## About
 
----
+This portfolio showcases full-stack and AI/cloud projects with a focus on:
 
-## /// MANIFESTO
+- practical engineering outcomes
+- architecture decisions and tradeoffs
+- measurable impact from shipped systems
 
-**Design is dying.** The web has become a sea of identical, sanitized templates. We are here to break the grid.
-This portfolio embraces **Neo-Brutalism**:
-- High Contrast
-- Raw Typography
-- Asymmetrical Layouts
-- "Ugly" on Purpose
+Core profile highlights from resume:
 
-It's not about being pretty. It's about being **BOLD**.
+- Full-stack engineering across MERN, Python, AWS
+- AtlasMind: sub-200ms query generation
+- Omni: <5s p95 incident flow
+- 92% crash classification accuracy at <$0.50 per incident
+- AWS Certified Cloud Practitioner (CLF-C02)
 
----
+## Tech Stack
 
-## /// TECH_STACK
+- Vite (build and dev server)
+- Tailwind CSS v3 + PostCSS
+- Vanilla JavaScript (section loader + UI behavior)
+- GitHub API (live stats)
+- Remix Icons + Google Fonts
 
-| COMPONENT | TECHNOLOGY | STATUS |
-| :--- | :--- | :--- |
-| **CORE** | `HTML5` | [OPTIMIZED] |
-| **STYLING** | `TailwindCSS` | [LOADED] |
-| **SCRIPTING** | `Vanilla JS` | [ACTIVE] |
-| **APIs** | `GitHub API` + `LeetCard` | [STREAMING] |
-| **ICONS** | `Remix Icons` | [LINKED] |
-| **FONTS** | `Space Grotesk` + `JetBrains Mono` | [IMPORTED] |
-
----
-
-## /// FEATURES_LOG
-
-### 01. CUSTOM_CURSOR
-> A custom-built cursor that reacts to interactive elements.
-> - **Normal State**: Small crosshair/dot.
-> - **Hover State**: Expands to a Neo-Yellow block with black borders.
-
-### 02. GLITCH_EFFECTS
-> CSS-only glitch animations on hover states.
-> - `mix-blend-mode: difference` for high contrast.
-> - Random translation keyframes for that "broken" feel.
-
-### 03. MARQUEE_SCROLL
-> Infinite scrolling text banners.
-> - Pure CSS animation.
-> - **Direction**: Left-to-Right & Right-to-Left.
-
-### 04. REVEAL_ANIMATION
-> Elements reveal themselves as you scroll.
-> - `IntersectionObserver` API.
-> - Smooth translate-Y transitions.
-
-### 05. CODING_STATS_INTEGRATION
-> Real-time data visualization of development activity.
-> - **Dual-Profile Interface**: Side-by-side GitHub and LeetCode stats.
-> - **Live GitHub API**: Dynamic fetching of Repos, Followers, and Commits.
-> - **LeetCard Integration**: Real-time LeetCode problem-solving heatmap.
-> - **Parallel Layout**: Perfectly balanced columns with mirrored headers and activity matrices.
-
----
-
-## /// FILE_STRUCTURE
+## Project Structure
 
 ```bash
-.
-├── Assets/
-│   ├── images/          # [DIR] Project thumbnails & Avatar
-│   └── Resume/          # [DIR] CV PDF file
-├── index.html           # [FILE] Main Entry Point
-└── README.md            # [FILE] You are here
+Portfolio/
+├── index.html
+├── README.md
+├── tailwind.config.js
+├── postcss.config.js
+├── src/
+│   ├── main.js
+│   ├── styles/
+│   │   └── main.css
+│   └── sections/
+│       ├── nav.html
+│       ├── hero.html
+│       ├── impact-strip.html
+│       ├── status-strip.html
+│       ├── about.html
+│       ├── skills.html
+│       ├── logs.html
+│       ├── coding-stats.html
+│       ├── projects.html
+│       ├── contact.html
+│       └── footer.html
+└── Assets/
+    ├── images/
+    └── Resume/
 ```
 
-## /// CONTACT_COORDINATES
+## Key Features
 
-**TRANSMISSION OPEN:**
-- **MAIL**: `topiwalaarham@gmail.com`
-- **GITHUB**: `Arham43-ops`
-- **LOCATION**: `Remote / Earth`
+- modular section-based page architecture
+- NeoBrutalist visual language (hard borders, contrast blocks, bold typography)
+- custom cursor interactions
+- reveal-on-scroll transitions
+- marquee status strip
+- live GitHub stats + badges
+- impact metrics strip sourced from resume outcomes
 
-> "I build digital products that refuse to be boring."
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm run preview
+```
+
+## Contact
+
+- Email: [lakshmannaikbhukya17@gmail.com](mailto:lakshmannaikbhukya17@gmail.com)
+- LinkedIn: [linkedin.com/in/lakshmanbhukya](https://www.linkedin.com/in/lakshmanbhukya/)
+- GitHub: [github.com/lakshmanbhukya](https://github.com/lakshmanbhukya)
+- Medium: [medium.com/@lakshmanbhukya](https://medium.com/@lakshmanbhukya)
 
 ---
-**© 2025 ARHAM.exe // SYSTEM_END**
+
+© 2026 Lakshman Singh Naik Bhukya
