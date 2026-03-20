@@ -22,3 +22,7 @@ build/
 sitemap.xml
 robots.txt
 google*.html
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
