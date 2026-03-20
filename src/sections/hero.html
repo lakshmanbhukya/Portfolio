@@ -1,61 +1,68 @@
 <section
-  class="min-h-screen flex flex-col justify-center items-center px-4 pt-20 relative overflow-hidden border-b-4 border-black"
+  class="min-h-screen flex flex-col justify-center items-center px-4 pt-32 relative overflow-hidden border-b-[6px] border-black bg-neo-white"
 >
+  <!-- Background Elements -->
   <div
-    class="absolute top-1/3 left-[10%] w-16 h-16 bg-neo-blue border-4 border-black shadow-hard animate-bounce hidden lg:block rotate-12"
+    class="absolute top-[20%] left-[5%] w-24 h-24 bg-neo-blue border-[4px] border-black shadow-hard-lg animate-bounce hidden lg:block rotate-12"
   ></div>
   <div
-    class="absolute bottom-1/3 right-[10%] w-24 h-24 bg-neo-pink rounded-full border-4 border-black shadow-hard hidden lg:block animate-pulse"
+    class="absolute bottom-[20%] right-[8%] w-32 h-32 bg-neo-pink rounded-full border-[4px] border-black shadow-hard-lg hidden lg:block animate-pulse"
   ></div>
   <div
-    class="absolute top-20 right-20 text-9xl opacity-5 font-black select-none pointer-events-none"
+    class="absolute top-24 right-10 text-[12rem] opacity-5 font-black select-none pointer-events-none font-display tracking-tighter"
   >
-    CODE
+    DEV
   </div>
 
-  <div class="relative z-10 text-center max-w-5xl">
+  <div class="relative z-10 text-center max-w-6xl">
+    <!-- Floating Sticker -->
     <div
-      class="inline-block bg-neo-white border-2 border-black px-4 py-1 mb-6 shadow-hard rotate-[-2deg] reveal"
+      class="inline-block bg-neo-yellow border-[3px] border-black px-6 py-2 mb-8 shadow-hard-lg -rotate-3 hover:rotate-0 transition-transform cursor-pointer reveal"
     >
-      <span class="font-mono font-bold text-neo-green bg-black px-2 mr-2"
+      <span class="font-mono font-black text-neo-red animate-pulse mr-2"
         >●</span
       >
-      <span class="font-mono font-bold"
-        >OPEN TO BUILDING IMPACTFUL PRODUCTS</span
+      <span class="font-display font-black text-sm uppercase"
+        >NOW BUILDING THE FUTURE OF AI</span
       >
     </div>
 
     <h1
-      class="text-[13vw] md:text-[10vw] leading-[0.8] font-black uppercase tracking-tighter mb-6 reveal mix-blend-darken"
+      class="text-[12vw] md:text-[9vw] leading-[0.85] font-black uppercase tracking-tighter mb-8 reveal"
     >
-      FULL STACK<br />
+      <span class="font-display block">FULL STACK</span>
       <span
-        class="text-white text-stroke-black"
-        style="-webkit-text-stroke: 3px black"
+        class="font-display text-transparent"
+        style="-webkit-text-stroke: 4px black"
         >DEVELOPER</span
       >
     </h1>
-    <p
-      class="font-mono text-lg md:text-2xl max-w-2xl mx-auto mb-10 bg-neo-yellow border-2 border-black p-4 shadow-hard reveal rotate-1"
-    >
-      Full-stack engineer building production-grade projects with measurable
-      impact across AI and cloud workflows. <br />
-      <b>FULL STACK • PYTHON • AWS • AI</b>
-    </p>
 
-    <div class="flex flex-col md:flex-row justify-center gap-6 reveal">
+    <div class="relative inline-block mb-12 reveal">
+      <div class="absolute inset-0 bg-black translate-x-3 translate-y-3"></div>
+      <p
+        class="relative font-body text-xl md:text-2xl font-bold max-w-3xl mx-auto bg-neo-green border-[3px] border-black p-6"
+      >
+        Building resilient, AI-powered applications across MERN and AWS. 
+        <span class="block mt-2 font-mono text-base font-black opacity-80"
+          >MERN • PYTHON • BEDROCK • CLOUD</span
+        >
+      </p>
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-center gap-8 reveal">
       <a
         href="#projects"
-        class="bg-black text-white border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-green hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover"
+        class="bg-black text-white border-[3px] border-black px-12 py-6 text-2xl font-black shadow-hard-lg hover:bg-neo-yellow hover:text-black hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-hard-xl transition-all cursor-hover"
       >
-        VIEW PROJECTS
+        VIEW WORK
       </a>
       <a
-        href="Assets/Resume/Lakshman_Resume.pdf"
+        href="Assets/Resume/lakshman_bhukya.pdf"
         download
-        class="bg-neo-white text-black border-2 border-black px-10 py-5 text-xl font-bold shadow-hard hover:bg-neo-pink hover:text-black hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-hover flex items-center justify-center gap-2"
+        class="bg-neo-white text-black border-[3px] border-black px-12 py-6 text-2xl font-black shadow-hard-lg hover:bg-neo-pink hover:translate-x-[-4px] hover:translate-y-[-4px] hover:shadow-hard-xl transition-all cursor-hover flex items-center justify-center gap-3"
       >
-        <i class="ri-download-line"></i> DOWNLOAD RESUME
+        <i class="ri-file-download-line text-3xl"></i> RESUME
       </a>
     </div>
   </div>

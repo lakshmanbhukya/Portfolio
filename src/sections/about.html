@@ -1,50 +1,57 @@
 <section
   id="about"
-  class="py-24 px-4 max-w-7xl mx-auto border-x-4 border-black bg-white my-12 shadow-hard-lg"
+  class="py-20 px-6 max-w-7xl mx-auto border-[4px] border-black bg-neo-white my-20 shadow-hard-xl relative overflow-hidden"
 >
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+  <div class="absolute top-0 right-0 w-32 h-32 bg-neo-blue/10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+  
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-16 relative z-10">
     <div class="md:col-span-4 reveal">
       <div
-        class="aspect-square bg-gray-200 border-4 border-black relative shadow-hard overflow-hidden group"
+        class="aspect-square bg-neo-black border-[4px] border-black relative shadow-hard-lg overflow-hidden group hover:shadow-hard-xl hover:translate-x-[-4px] hover:translate-y-[-4px] transition-all"
       >
         <img
           src="Assets/images/img.jpg"
           alt="Lakshman Singh Naik Bhukya"
-          class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+          class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
         />
-        <span
-          class="absolute top-2 left-2 bg-neo-red text-white px-2 font-mono text-xs border border-black z-10"
-          >LAKSHMAN.JPG</span
-        >
+        <div class="absolute bottom-4 right-4 bg-neo-yellow border-[2px] border-black px-3 py-1 font-display font-black text-xs shadow-hard-sm">
+          LAKSHMAN.JPG
+        </div>
       </div>
     </div>
     <div class="md:col-span-8 flex flex-col justify-center reveal">
-      <h2 class="text-6xl font-black uppercase mb-6">Who am I?</h2>
-      <p class="font-mono text-xl leading-relaxed mb-6">
+      <h2 class="text-7xl md:text-8xl font-black uppercase mb-8 font-display tracking-tighter">Who am I?</h2>
+      <p class="font-body text-2xl leading-relaxed mb-8">
         I am
-        <span class="bg-neo-yellow px-1 border border-black">Lakshman</span>, a
-        full-stack engineer focused on building practical systems with strong
-        product and architecture thinking.
+        <span class="bg-neo-blue text-black px-2 py-1 border-[2px] border-black shadow-hard-sm font-black font-display">Lakshman</span> , a
+        full-stack engineer focused on building practical, AI-driven systems with a strong product mindset.
       </p>
-      <p
-        class="font-mono text-lg mb-8 text-gray-600 border-l-4 border-neo-purple pl-4"
-      >
-        > Built real-world projects with React, Node.js, Python, and AWS.<br />
-        > Comfortable with APIs, databases, and cloud deployment workflows.<br />
-        > Fast learner, strong ownership mindset, and eager to contribute from
-        day one.
-      </p>
+      
+      <div class="space-y-4 mb-10">
+        <div class="flex items-start gap-4 p-4 bg-neo-white border-[2px] border-black shadow-hard hover:translate-x-1 transition-transform">
+          <div class="w-8 h-8 bg-neo-pink flex items-center justify-center border-[2px] border-black font-black text-sm">01</div>
+          <p class="font-body text-lg font-bold">Built real-world projects with React, Node.js, Python, and AWS.</p>
+        </div>
+        <div class="flex items-start gap-4 p-4 bg-neo-white border-[2px] border-black shadow-hard hover:translate-x-1 transition-transform">
+          <div class="w-8 h-8 bg-neo-blue flex items-center justify-center border-[2px] border-black font-black text-sm">02</div>
+          <p class="font-body text-lg font-bold">Experienced in LLM orchestration, vector databases, and agentic workflows.</p>
+        </div>
+        <div class="flex items-start gap-4 p-4 bg-neo-white border-[2px] border-black shadow-hard hover:translate-x-1 transition-transform">
+          <div class="w-8 h-8 bg-neo-green flex items-center justify-center border-[2px] border-black font-black text-sm">03</div>
+          <p class="font-body text-lg font-bold">Fast learner, passionate collaborator, and eager to contribute to core engineering.</p>
+        </div>
+      </div>
 
-      <div class="flex gap-4">
+      <div class="flex flex-wrap gap-6">
         <div
-          class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-transparent"
+          class="bg-neo-black text-white px-6 py-3 font-mono text-sm border-[2px] border-black shadow-hard"
         >
           LOCATION: VIJAYAWADA, IN
         </div>
         <div
-          class="bg-neo-green text-black px-4 py-2 font-mono text-sm border-2 border-black"
+          class="bg-neo-green text-black px-6 py-3 font-mono text-sm border-[2px] border-black shadow-hard animate-pulse"
         >
-          STATUS: OPEN TO OPPORTUNITIES
+          STATUS: READY TO JOIN
         </div>
       </div>
     </div>
