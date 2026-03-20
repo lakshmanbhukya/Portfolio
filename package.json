@@ -4,6 +4,7 @@
   "description": "Lakshman portfolio powered by Vite and Tailwind CSS.",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/copy-assets.js",
     "build": "vite build",
     "preview": "vite preview"
   },
