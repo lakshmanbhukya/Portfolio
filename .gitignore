@@ -23,6 +23,8 @@ sitemap.xml
 robots.txt
 google*.html
 
+*.tex
+
 
 #Ignore vscode AI rules
 .github\instructions\codacy.instructions.md
